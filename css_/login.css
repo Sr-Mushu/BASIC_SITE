@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url(Img/Livos_Fundo_Login.jpg);
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.Cartao{
+    background-color:rgba(0,0,0,0) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+
+}
+.Cartao input :not(buton_login)
+{
+    background-color: rgba(0,0,0,0) ;
+}
+
+.campos 
+{
+    color: white;
+    background-color: rgba(0,0,0,0) ;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    transition: 0.5s;
+    
+}
+.campos:hover
+{
+    border-bottom: 1px solid white;
+}
+.buton_login{
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+    transition: 0.5s;
+    
+}
+.buton_login:hover{
+ background-color: rgb(21, 101, 182);
+ cursor: pointer;
+ transform: translateY(-5px) ;
+}
